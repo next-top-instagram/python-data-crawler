@@ -10,6 +10,18 @@ https://www.skyscanner.co.kr/g/can-i-go-map-api/map/feature-collection-translate
 https://www.skyscanner.co.kr/g/can-i-go-map-api/map/feature-collection-translated?isMobile=false&locale=ko-KR&market=KR&originId=29475329&type=vaccinated
 ```
 
+## Export dependency
+
+```
+pip3 freeze > requirements.txt
+```
+
+## Import dependency
+
+```
+pip3 install -r requirements.txt
+```
+
 ## Chrome driver
 
 ![download](https://chromedriver.chromium.org/downloads)
