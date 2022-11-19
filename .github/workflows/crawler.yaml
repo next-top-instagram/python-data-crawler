@@ -27,3 +27,9 @@ jobs:
           pwd
           cp /home/runner/work/_temp/nb-runner/* ./
           ls -al
+          git config --local user.email ${{ secrets.PUSH_USER_EMAIL }}
+          git config --local user.name ${{ secrets.PUSH_USER_NAME }}
+          git branch crawler-result
+          git add -A
+          git commit -m "Crawl result"
+          git push --force
