@@ -1,6 +1,14 @@
 name: Execute notebook
 # https://github.com/jsoma/selenium-github-actions/blob/main/.github/workflows/scrape.yml
 # https://github.com/marketplace/actions/run-notebook
+
+# git config --local user.email ${{ secrets.crawler.PUSH_USER_EMAIL }}
+# git config --local user.name ${{ secrets.crawler.PUSH_USER_NAME }}
+# git branch crawler-result
+# git add -A
+# git commit -m "Crawl result"
+# git push --force
+
 on: [push]
 
 jobs:
@@ -104,9 +112,3 @@ jobs:
             # Arguments for the git push --tags command (any additional argument will be added after --tags)
             # Default: ''
             # tag_push: "--force"
-# git config --local user.email ${{ secrets.crawler.PUSH_USER_EMAIL }}
-# git config --local user.name ${{ secrets.crawler.PUSH_USER_NAME }}
-# git branch crawler-result
-# git add -A
-# git commit -m "Crawl result"
-# git push --force
