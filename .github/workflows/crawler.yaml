@@ -1,0 +1,20 @@
+name: Execute notebook
+
+on: [push]
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install Chrome
+        run: sudo apt install google-chrome-stable -y
+      - name: Set up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.9"
+      - uses: yaananth/run-notebook@v2
+        env:
+          IS_GITHUB_ACTION: yes
+        with:
+          notebook: "Asiana covid info crawler.ipynb"
