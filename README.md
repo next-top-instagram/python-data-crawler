@@ -1,6 +1,6 @@
 # python-data-crawler
 
-See crawl result in this [link](https://next-top-instagram.github.io/python-data-crawler/)
+See crawl result in this [link](https://next-top-instagram.github.io/python-data-crawler/).
 
 Python data crawler
 
