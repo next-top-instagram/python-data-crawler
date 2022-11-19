@@ -15,6 +15,6 @@ jobs:
           python-version: "3.9"
       - uses: yaananth/run-notebook@v2
         env:
-          IS_GITHUB_ACTION: ${{ toJson(IS_GITHUB_ACTION) }}
+          IS_GITHUB_ACTION: ${{ toJson("yes") }}
         with:
           notebook: "Asiana covid info crawler.ipynb"
