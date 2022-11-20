@@ -401,3 +401,5 @@ modules.xml
 # End of https://www.toptal.com/developers/gitignore/api/pycharm,pycharm+all,pycharm+iml
 
 .csv
+
+.whl
