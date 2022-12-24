@@ -1,0 +1,31 @@
+,국가,입국 제한,백신접종증명서,음성확인서,사전 신고 절차,격리,비고 (상세 조건 확인)
+0,일본,X,O,"O
+(백신 3차 접종 X)",[VISIT JAPAN WEB] https://vjw-lp.digital.go.jp/,"△
+(출발 지역별 상이)",[일본 정부 안내사항] https://www.mofa.go.jp/ca/fna/page4e_001053.html
+1,중국,O,X,O,"O
+[건강 QR 코드]
+(녹색 QR 필수)
+[세관신고서] https://hrhk.cs.mfa.gov.cn/H5/","시설격리 5일
++ 3일 자가모니터링
+(지역별 상이)",[주한중국대사관 안내사항] http://kr.china-embassy.gov.cn/kor/lsfw/
+2,홍콩,"△
+[안내사항] https://www.immd.gov.hk/eng/services/visas/visit-transit/visit-visa-entry-permit.html","O
+(홍콩 거주자 제외)",O,"[건강상태신고서]
+(녹색 QR 필수) https://www.chp.gov.hk/hdf/",X,[홍콩 정부 안내사항] https://www.coronavirus.gov.hk/eng/inbound-travel.html
+3,싱가포르,X,O,"X
+(백신 미접종자 O)",[SG Arrival Card] https://eservices.ica.gov.sg/sgarrivalcard/,X,[싱가포르 정부 안내사항] https://www.ica.gov.sg/enter-transit-depart/entering-singapore
+4,인도네시아,△,O,X,"[Peduli Lindungi]
+[전자세관신고] https://www.pedulilindungi.id/",X,"건강상 미접종자
+음성확인서 필요 (5일 격리)
+[인도네시아 정부 안내사항] https://www.imigrasi.go.id/en/covid19/#1621501651158-8e7bbdc3-bbb8"
+5,필리핀,"△
+[안내사항] https://dfa.gov.ph/list-of-countries-for-21-day-visa",O,"X
+(백신 미접종자 O)","[eARRIVAL CARD]
+또는
+[eTravel] https://www.onehealthpass.com.ph/","△
+(백신 미접종자 양성 판정시 격리)","격리 비용 자부담
+[필리핀 관광청 안내] https://philippines.travel/safetrip#inboundadvisory"
+6,미국,X,"O
+(시민권자, 영주권자 이민비자 제외)",X,X,X,[질병통제센터 안내사항] https://www.cdc.gov/coronavirus/2019-ncov/travelers/international-travel-during-covid19.html
+7,사이판,X,"O
+(시민권자, 영주권자 이민비자 제외)",X,X,X,[질병통제센터 안내사항] https://www.cdc.gov/coronavirus/2019-ncov/travelers/international-travel-during-covid19.html

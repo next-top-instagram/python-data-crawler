@@ -30,6 +30,14 @@ jobs:
           IS_GITHUB_ACTION: yes
         with:
           notebook: "Asiana covid info crawler.ipynb"
+      - uses: yaananth/run-notebook@v2
+        env:
+          RUNNER: ${{ toJson(runner) }}
+          SECRETS: ${{ toJson(secrets) }}
+          GITHUB: ${{ toJson(github) }}
+          IS_GITHUB_ACTION: yes
+        with:
+          notebook: "Crawl go-tokyo multi process, multi threading.ipynb"
       - name: Summary result files
         run: |
           pwd
