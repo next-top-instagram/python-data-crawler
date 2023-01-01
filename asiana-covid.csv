@@ -20,12 +20,17 @@
 [인도네시아 정부 안내사항] https://www.imigrasi.go.id/en/covid19/#1621501651158-8e7bbdc3-bbb8"
 5,필리핀,"△
 [안내사항] https://dfa.gov.ph/list-of-countries-for-21-day-visa",O,"X
-(백신 미접종자 O)","[eARRIVAL CARD]
-또는
-[eTravel] https://www.onehealthpass.com.ph/","△
+(백신 미접종자 O)",[eTravel] https://etravel.gov.ph/,"△
 (백신 미접종자 양성 판정시 격리)","격리 비용 자부담
 [필리핀 관광청 안내] https://philippines.travel/safetrip#inboundadvisory"
 6,미국,X,"O
 (시민권자, 영주권자 이민비자 제외)",X,X,X,[질병통제센터 안내사항] https://www.cdc.gov/coronavirus/2019-ncov/travelers/international-travel-during-covid19.html
 7,사이판,X,"O
 (시민권자, 영주권자 이민비자 제외)",X,X,X,[질병통제센터 안내사항] https://www.cdc.gov/coronavirus/2019-ncov/travelers/international-travel-during-covid19.html
+8,인도,X,"△
+(백신접종 완료자도 RTPCR 영문 음성 확인서 등록)",O,"에어수비다
+(Air Suvidha) https://air-suvidha-portal.com/",X,"- 한국,중국,홍콩,일본,싱가폴, 태국發 승객 72시간내 RTPCR 영문 음성 확인서
+Air-Suvidha 등록 필수
+
+- 백신 접종완료자도
+RTPCR 영문 음성 확인서 등록 필요"
